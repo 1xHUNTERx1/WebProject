@@ -12,10 +12,16 @@ namespace WebProject1.Controllers
         {
             _logger = logger;
         }
-        public IActionResult login()
+        public IActionResult Register()
         {
             return View();
         }
+        public IActionResult Login()
+        {
+            return View();
+
+        }
+       [HttpPost]
         public IActionResult Navigation()
         {
             return View();
