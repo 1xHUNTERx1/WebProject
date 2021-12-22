@@ -12,6 +12,10 @@ namespace WebProject1.Controllers
         {
             _logger = logger;
         }
+        public IActionResult Order()
+        {
+            return View();
+        }
         public IActionResult Register()
         {
             return View();
